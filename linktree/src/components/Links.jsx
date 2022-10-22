@@ -1,3 +1,6 @@
+import githubIcon from '../assets/github.svg'
+import slackIcon from '../assets/slack.svg'
+
 
 const LinksData = [
   {
@@ -42,7 +45,10 @@ export default function Links() {
           </div>
         ))}
       </div>
-      <div></div>
+      <div className="flex items-center justify-center py-[24px] gap-[64px]">
+        <img src={slackIcon} alt="slackIcon" />
+        <img src={githubIcon} alt="githubIcon" />
+      </div>
     </main>
   )
 }
