@@ -34,6 +34,15 @@ const LinksData = [
 ]
 export default function Links() {
   return (
-    <div>Links</div>
+    <main className='flex flex-col w-full gap-[24px] mt-[58px] '>
+      <div className="px-[64px] flex flex-col w-full gap-[24px]">
+        {LinksData.map(data => (
+          <div key={data.id} className='w-full flex items-center justify-center py-[24px] bg-gray-200 text-gray-900 font-[600] text-[18px]'>
+            <a href={data.link} id={data.id}>{data.title}</a>
+          </div>
+        ))}
+      </div>
+      <div></div>
+    </main>
   )
 }
