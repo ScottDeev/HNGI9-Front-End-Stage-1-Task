@@ -1,12 +1,14 @@
+import Footer from "./components/Footer"
 import Links from "./components/Links"
 import Profile from "./components/Profile"
 
 function App() {
 
   return (
-    <div className="App px-[80px]">
+    <div className="App px-[80px] mb-[54px]">
       <Profile/>
       <Links/>
+      <Footer/>
     </div>
   )
 }
