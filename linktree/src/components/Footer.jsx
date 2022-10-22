@@ -2,7 +2,7 @@ import zuriIcon from '../assets/zuri.svg'
 import i4gIcon from '../assets/I4G.svg'
 export default function Footer() {
   return (
-    <footer className='mt-[112px] flex flex-row items-end justify-between'>
+    <footer className='mt-[112px] flex flex-row items-end justify-between border-t border-[#EAECF0] h-[64px]'>
       <div>
         <img src={zuriIcon} alt="zuriIcon" />
       </div>

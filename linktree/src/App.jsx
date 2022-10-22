@@ -5,7 +5,7 @@ import Profile from "./components/Profile"
 function App() {
 
   return (
-    <div className="App px-[80px] mb-[54px]">
+    <div className="App md:px-[80px] sm:px-[30px] px-[16px] mb-[54px]">
       <Profile/>
       <Links/>
       <Footer/>
