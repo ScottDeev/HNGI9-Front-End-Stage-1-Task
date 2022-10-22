@@ -18,4 +18,10 @@
 - React
 - Tailwind
 
+## Screenshots
+![Screenshot (252)](https://user-images.githubusercontent.com/99127718/197339430-65bdf663-fb5c-4bac-b668-daf795c0cdb6.png)
+![Screenshot (253)](https://user-images.githubusercontent.com/99127718/197339434-784a52dd-6d7b-4a0c-bbb4-32776ce0aa58.png)
+
+
 ## Link to live site
+[Live site](https://hngi9linktree.vercel.app/)
