@@ -1,14 +1,17 @@
-import Footer from "./components/Footer"
-import Links from "./components/Links"
-import Profile from "./components/Profile"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import FirstTask from "./pages/FirstTask"
 
 function App() {
 
   return (
     <div className="App md:px-[80px] sm:px-[30px] px-[16px] mb-[54px]">
-      <Profile/>
-      <Links/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={
+            <FirstTask/>
+          }/>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
