@@ -45,6 +45,9 @@ export default function Links() {
             <a href={data.link} id={data.id}>{data.title}</a>
           </div>
         ))}
+          <div className='w-full flex items-center justify-center py-[24px] bg-gray-200 text-gray-900 font-[500] text-[18px]'>
+            <Link to='/contact' id='contact'>Contact Me</Link>
+          </div>
       </div>
       <div className="flex items-center justify-center py-[24px] gap-[64px]">
         <img src={slackIcon} alt="slackIcon" />

@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import FirstTask from "./pages/FirstTask"
+import SecondTask from "./pages/SecondTask"
 
 function App() {
 
@@ -9,6 +10,9 @@ function App() {
         <Routes>
           <Route path="/" element={
             <FirstTask/>
+          }/>
+          <Route path="/contact" element={
+            <SecondTask/>
           }/>
         </Routes>
       </BrowserRouter>
