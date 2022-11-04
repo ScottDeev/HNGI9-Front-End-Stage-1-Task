@@ -18,7 +18,7 @@ export default function Form() {
     }
   }
   return (
-    <div className="md:w-[70%] sm:w-[80%] w-[95%] mx-auto flex flex-col gap-[48px]">
+    <div className="md:w-[70%] sm:w-[80%] w-[95%] mx-auto flex flex-col gap-[48px] md:mt-[100px] mt-[30px]">
       <div >
         <h1 className="font-semibold text-[36px] text-gray-900">Contact Me</h1>
         <p className="text-[20px] font-[400] text-gray-600">Hi there, contact me to ask me about anything you have in mind.</p>
